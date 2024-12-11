@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlists | Meditation & Peace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Links -->
+    <header>
+        <h1 class="title-box">Relaxing & Motivational Playlists</h1>
+        <nav class="Navy">
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="games.html"><i class="fas fa-gamepad"></i> Games</a>
+            <a href="articles.html"><i class="fas fa-book"></i> Articles</a>
+            <a href="yoga.html"><i class="fas fa-spa"></i> Yoga</a>
+            <a href="stories.html"><i class="fas fa-lightbulb"></i> Inspiring Stories</a>
+            <a href="speakers.html"><i class="fas fa-microphone"></i> Speakers</a>
+            <a href="about.html"><i class="fas fa-info-circle"></i> About Us</a>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <main>
+        <h2 class="uplifting-title">Uplifting, Motivational & Mood-Boosting Music</h2>
+
+        <!-- Media Player -->
+        <div id="media-player" class="media-player">
+            <img id="player-image" src="images/playlist.jpg" alt="Default Cover" class="player-image">
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Song Buttons -->
+        <div class="song">
+            <button onclick="playSong('playlist/song1.mp3', this, 'images/song1.jpg')"><img src="images/song1.jpg" alt="Relaxing Music"></button>
+            <button onclick="playSong('playlist/song2.mp3', this, 'images/song2.jpg')"><img src="images/song2.jpg" alt="Meditation Music"></button>
+            <button onclick="playSong('playlist/song3.mp3', this, 'images/song3.jpg')"><img src="images/song3.jpg" alt="Guided Meditation"></button>
+            <button onclick="playSong('playlist/song4.mp3', this, 'images/song4.jpg')"><img src="images/song4.jpg" alt="Chak De India"></button>
+            <button onclick="playSong('playlist/song5.mp3', this, 'images/song5.jpg')"><img src="images/song5.jpg" alt="Ziddi Dil"></button>
+            <button onclick="playSong('playlist/song6.mp3', this, 'images/song6.jpg')"><img src="images/song6.jpg" alt="Shabashiyan"></button>
+            <button onclick="playSong('playlist/song7.mp3', this, 'images/song7.jpg')"><img src="images/song7.jpg" alt="Goosebumps"></button>
+            <button onclick="playSong('playlist/song8.mp3', this, 'images/song8.jpg')"><img src="images/song8.jpg" alt="Hope"></button>
+            <button onclick="playSong('playlist/song9.mp3', this, 'images/song9.jpg')"><img src="images/song9.jpg" alt="Believe in You"></button>
+            <button onclick="playSong('playlist/song10.mp3', this, 'images/song10.jpg')"><img src="images/song10.jpg" alt="Mahabharat"></button>
+            <button onclick="playSong('playlist/song11.mp3', this, 'images/song11.jpg')"><img src="images/song11.jpg" alt="Give it to God"></button>
+            <button onclick="playSong('playlist/song12.mp3', this, 'images/song12.jpg')"><img src="images/song12.jpg" alt="Tum Prem Ho"></button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Meditation & Peace. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
