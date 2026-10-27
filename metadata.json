@@ -1,0 +1,6 @@
+{
+  "name": "Meddy — Find Your Softer Pace",
+  "description": "A mindful sanctuary featuring calming music playlists, step-by-step yoga postures, inspiring stories, mindfulness articles, sage speaker quotes, and guided breathing exercises.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
